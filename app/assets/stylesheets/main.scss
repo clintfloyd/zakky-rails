@@ -1,0 +1,26 @@
+@import "variables";
+
+body{
+	background-color: #000101;
+}
+
+header{
+	height: calc(100vh);
+	width: calc(100vw);
+	margin-bottom: 50px;
+	background: url(/assets/sky2.jpg) bottom center / cover no-repeat;
+	@media (max-height: 800px){
+		height: 800px;
+	}
+}
+
+header .logo{
+	width: 150px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+header div.withPaddingTop{
+	padding-top: 50px;
+}
